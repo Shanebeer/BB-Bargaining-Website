@@ -1,7 +1,7 @@
 /*Common Elements*/
 @font-face {
   font-family: font;
-  src: url("/fonts/Merriweather_Sans/MerriweatherSans-VariableFont_wght.ttf");
+  src: url("MerriweatherSans-VariableFont_wght.ttf");
 }
 * {
   padding: 0;
@@ -500,7 +500,7 @@ section {
 .removals .grid-con .grid .trash .bag {
   width: 8rem;
   height: 10rem;
-  background-image: url("/assets/bbremovals-trashbag-icon.png");
+  background-image: url("bbremovals-trashbag-icon.png");
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
@@ -543,7 +543,7 @@ section {
 .removals .grid-con .grid .garden .tree {
   width: 15rem;
   height: 10rem;
-  background-image: url("/assets/bbremovals-tree-icon.png");
+  background-image: url("bbremovals-tree-icon.png");
   bottom: 0;
   left: 45%;
   transform-origin: bottom center;
@@ -552,7 +552,7 @@ section {
 .removals .grid-con .grid .garden .axe {
   width: 15rem;
   height: 10rem;
-  background-image: url("/assets/bbremovals-axe-icon.png");
+  background-image: url("bbremovals-axe-icon.png");
   bottom: 1rem;
   left: 30%;
   animation: chop 3s infinite;
@@ -590,17 +590,17 @@ section {
   bottom: 0;
 }
 .removals .grid-con .grid .unwanted .giver {
-  background-image: url("/assets/bbremovals-giver-icon.png");
+  background-image: url("bbremovals-giver-icon.png");
   left: 0;
 }
 .removals .grid-con .grid .unwanted .receiver {
-  background-image: url("/assets/bbremovals-receiver-icon.png");
+  background-image: url("bbremovals-receiver-icon.png");
   right: 0;
 }
 .removals .grid-con .grid .unwanted .item {
   width: 6rem;
   height: 6rem;
-  background-image: url("/assets/bbremovals-lamp-icon.png");
+  background-image: url("bbremovals-lamp-icon.png");
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
@@ -623,11 +623,11 @@ section {
     left: 45%;
     transform: scale(1);
     opacity: 1;
-    background-image: url("/assets/bbremovals-treasure-icon.png");
+    background-image: url("bbremovals-treasure-icon.png");
   }
   100% {
     left: calc(60% + 6rem);
-    background-image: url("/assets/bbremovals-treasure-icon.png");
+    background-image: url("bbremovals-treasure-icon.png");
   }
 }
 .removals .warning-container {
@@ -641,7 +641,7 @@ section {
 .removals .warning-container .warning-icon {
   width: 10rem;
   height: 10rem;
-  background-image: url("/assets/bbremovals-warning-icon.png");
+  background-image: url("bbremovals-warning-icon.png");
   background-size: contain;
   margin: 0 auto 2rem;
   animation: pulse 2s infinite;
@@ -708,7 +708,7 @@ section {
 .transport .container .truck {
   width: 15rem;
   height: 10rem;
-  background-image: url("/assets/bbtransport-truckicon2.jpg");
+  background-image: url("bbtransport-truckicon2.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
