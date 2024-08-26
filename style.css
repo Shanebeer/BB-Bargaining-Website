@@ -3,6 +3,11 @@
   font-family: font;
   src: url("MerriweatherSans-VariableFont_wght.ttf");
 }
+@font-face {
+  font-family: hfont;
+  src: url("LilitaOne-Regular.ttf");
+}
+
 * {
   padding: 0;
   margin: 0;
