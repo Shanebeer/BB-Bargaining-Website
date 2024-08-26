@@ -9,7 +9,7 @@ $back: linear-gradient(to right, #00a651, #33a651, #66a651);
 
 @font-face {
   font-family: font;
-  src: url("/fonts/Merriweather_Sans/MerriweatherSans-VariableFont_wght.ttf");
+  src: url("MerriweatherSans-VariableFont_wght.ttf");
 }
 
 @mixin grid($val) {
@@ -556,7 +556,7 @@ section {
         .bag {
           width: 8rem;
           height: 10rem;
-          background-image: url("/assets/bbremovals-trashbag-icon.png");
+          background-image: url("bbremovals-trashbag-icon.png");
           background-size: contain;
           background-repeat: no-repeat;
           position: absolute;
@@ -600,7 +600,7 @@ section {
         .tree {
           width: 15rem;
           height: 10rem;
-          background-image: url("/assets/bbremovals-tree-icon.png");
+          background-image: url("bbremovals-tree-icon.png");
           bottom: 0;
           left: 45%;
           transform-origin: bottom center;
@@ -609,7 +609,7 @@ section {
         .axe {
           width: 15rem;
           height: 10rem;
-          background-image: url("/assets/bbremovals-axe-icon.png");
+          background-image: url("bbremovals-axe-icon.png");
           bottom: 1rem;
           left: 30%;
           animation: chop 3s infinite;
@@ -650,17 +650,17 @@ section {
           bottom: 0;
         }
         .giver {
-          background-image: url("/assets/bbremovals-giver-icon.png");
+          background-image: url("bbremovals-giver-icon.png");
           left: 0;
         }
         .receiver {
-          background-image: url("/assets/bbremovals-receiver-icon.png");
+          background-image: url("bbremovals-receiver-icon.png");
           right: 0;
         }
         .item {
           width: 6rem;
           height: 6rem;
-          background-image: url("/assets/bbremovals-lamp-icon.png");
+          background-image: url("bbremovals-lamp-icon.png");
           background-size: contain;
           background-repeat: no-repeat;
           position: absolute;
@@ -684,11 +684,11 @@ section {
             left: 45%;
             transform: scale(1);
             opacity: 1;
-            background-image: url("/assets/bbremovals-treasure-icon.png");
+            background-image: url("bbremovals-treasure-icon.png");
           }
           100% {
             left: calc(60% + 6rem);
-            background-image: url("/assets/bbremovals-treasure-icon.png");
+            background-image: url("bbremovals-treasure-icon.png");
           }
         }
       }
@@ -705,7 +705,7 @@ section {
     .warning-icon {
       width: 10rem;
       height: 10rem;
-      background-image: url("/assets/bbremovals-warning-icon.png");
+      background-image: url("bbremovals-warning-icon.png");
       background-size: contain;
       margin: 0 auto 2rem;
       animation: pulse 2s infinite;
@@ -780,7 +780,7 @@ section {
     .truck {
       width: 15rem;
       height: 10rem;
-      background-image: url("/assets/bbtransport-truckicon2.jpg");
+      background-image: url("bbtransport-truckicon2.jpg");
       background-size: contain;
       background-repeat: no-repeat;
       position: absolute;
