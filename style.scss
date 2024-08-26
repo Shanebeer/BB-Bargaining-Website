@@ -12,6 +12,11 @@ $back: linear-gradient(to right, #00a651, #33a651, #66a651);
   src: url("MerriweatherSans-VariableFont_wght.ttf");
 }
 
+@font-face {
+  font-family: hfont;
+  src: url("LilitaOne-Regular.ttf");
+}
+
 @mixin grid($val) {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
